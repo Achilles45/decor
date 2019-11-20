@@ -47,6 +47,9 @@
     font-size: .8rem;
     margin-right: .7rem;
 }
+.nav-link:hover{
+        color: $primary-color !important;
+    }
 .fa-bars{
     // background: $primary-color;
     color: $primary-color;
