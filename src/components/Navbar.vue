@@ -81,7 +81,7 @@ export default {
 .fixnav{
     position: fixed;
     top:0;
-    box-shadow: 30px 0px 30px rgba(0,0,0,.5);
+    box-shadow: 30px 0px 5px rgba(0,0,0,.10);
     background: #fff;
     z-index: 1000;
 }

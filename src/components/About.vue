@@ -14,7 +14,7 @@
 </template>
 <style lang="scss" scoped>
 .about__wrapper{
-    margin: 3rem 0;
+    margin: 4rem 0;
     h4{
         color: #000;
         font-weight: bold;
@@ -23,5 +23,13 @@
         color: #404040;
         font-size: .95rem;
     }
+}
+
+//MEDIA QUERIES
+@media only screen and (max-width: 1000px) {
+  .p{
+      font-size: .83rem;
+      line-height: 1.3;
+  }
 }
 </style>
