@@ -33,7 +33,7 @@
     p{
         font-size: .95rem;
         opacity: .7;
-        padding-bottom: 1.3rem;
+        padding-bottom: 2rem;
     }
     .banner__btn{
         background: $primary-color;
