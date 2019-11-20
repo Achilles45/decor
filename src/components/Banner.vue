@@ -70,7 +70,8 @@
             font-size: 1.5rem;
         }
         p{
-            font-size: .8rem;
+            font-size: .83rem;
+            line-height: 1.3;
         }
     }
 }
