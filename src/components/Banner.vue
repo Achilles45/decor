@@ -2,7 +2,7 @@
     <div class="banner__wrapper container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-10">
                     <h4>Providing you with service providers on the go!</h4>
                     <p>Get access to event planners, painters, hair stylist, photographers, cooks, laundry men, make-up artist, and other service providers in your locality.</p><br>
                     <router-link to="/" class="banner__btn">Get started &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right animate"></i> </router-link>
@@ -59,6 +59,19 @@
     to{
         transform: translateX(80%);
         opacity: 1;
+    }
+}
+
+//MEDIA QUERIES
+@media only screen and (max-width: 1000px) {
+    .banner__wrapper{
+        min-height: 510px !important;
+        h4{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: .8rem;
+        }
     }
 }
 </style>

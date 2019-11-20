@@ -1,5 +1,5 @@
 <template>
-    <div class="topbar__wrapper container-fluid d-none d-md-block">
+    <div class="topbar__wrapper container-fluid d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

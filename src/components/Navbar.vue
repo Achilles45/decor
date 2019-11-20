@@ -55,4 +55,12 @@
     color: $primary-color;
 }
 }
+
+//MEDIA QUERIES
+@media only screen and (max-width: 1000px) {
+  .logo{
+      height: auto;
+      max-width: 50px;
+  }
+}
 </style>
