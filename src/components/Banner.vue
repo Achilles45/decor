@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h4>Providing you with service providers on the go!</h4>
-                    <p>Get access to event planners, painters, hair stylist, photographers, cooks, laundry men, make-up artist, and other service providers in your locality.</p><br>
+                    <p>Get access to event planners, painters, hair stylist, photographers, cooks, laundry men, make-up artist, and other service providers in your locality.</p>
                     <router-link to="/" class="banner__btn">Get started &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right animate"></i> </router-link>
                 </div>
             </div>
