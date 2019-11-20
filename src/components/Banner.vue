@@ -5,7 +5,7 @@
                 <div class="col-md-6">
                     <h4>Providing you with service providers on the go!</h4>
                     <p>Get access to event planners, painters, hair stylist, photographers, cooks, laundry men, make-up artist, and other service providers in your locality.</p>
-                    <router-link to="/" class="banner__btn">Get started</router-link>
+                    <router-link to="/" class="banner__btn">Get started &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-angle-right animate"></i> </router-link>
                 </div>
             </div>
         </div>
@@ -40,6 +40,25 @@
         color: #fff;
         padding: 1rem 2.5rem;
         border-radius: 3px;
+        text-decoration: none
+    }
+    .animate{
+        animation-name: animate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+}
+
+//Animte css
+@keyframes animate{
+    from{
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(80%);
+        opacity: 1;
     }
 }
 </style>
