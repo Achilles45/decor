@@ -122,7 +122,7 @@
 
 @media only screen and (max-width: 1000px){
     .card__wrapper{
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.2rem !important;
     }
 }
 </style>
