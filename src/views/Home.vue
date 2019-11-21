@@ -3,9 +3,11 @@
     <Topbar />
     <Navbar />
     <Banner />
+    <Services />
     <About />
     <Process />
     <Ambassador />
+    <Footer />
     <!-- <Gallary /> -->
   </div>
 </template>
@@ -15,10 +17,12 @@
 import Topbar from '@/components/Topbar.vue';
 import Navbar from '@/components/Navbar.vue';
 import Banner from '@/components/Banner.vue';
+import Services from '@/components/Services.vue';
 import About from '@/components/About.vue';
 import Process from '@/components/Process.vue';
 import Gallary from '@/components/Gallary.vue';
 import Ambassador from '@/components/Ambassador.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'home',
@@ -26,10 +30,12 @@ export default {
     Topbar,
     Navbar,
     Banner,
+    Services,
     About,
     Process,
     Gallary,
-    Ambassador
+    Ambassador,
+    Footer
   }
 }
 </script>
