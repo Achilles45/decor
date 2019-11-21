@@ -30,7 +30,7 @@
 @import '../styles/_colors';
 .process__wrapper{
     background: #F6F7FF;
-    padding: 3rem 0;
+    padding: 3.5rem 0;
     .heading{
         color: #000;
         font-weight: bold;
@@ -44,7 +44,8 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 20px;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
         .process__card{
             background: #fff;
             border-radius: 3px;

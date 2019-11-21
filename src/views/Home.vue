@@ -5,6 +5,8 @@
     <Banner />
     <About />
     <Process />
+    <Ambassador />
+    <!-- <Gallary /> -->
   </div>
 </template>
 
@@ -15,6 +17,8 @@ import Navbar from '@/components/Navbar.vue';
 import Banner from '@/components/Banner.vue';
 import About from '@/components/About.vue';
 import Process from '@/components/Process.vue';
+import Gallary from '@/components/Gallary.vue';
+import Ambassador from '@/components/Ambassador.vue';
 
 export default {
   name: 'home',
@@ -23,7 +27,9 @@ export default {
     Navbar,
     Banner,
     About,
-    Process
+    Process,
+    Gallary,
+    Ambassador
   }
 }
 </script>

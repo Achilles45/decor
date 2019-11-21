@@ -14,7 +14,7 @@
 </template>
 <style lang="scss" scoped>
 .about__wrapper{
-    margin: 4rem 0;
+    margin: 5rem 0;
     h4{
         color: #000;
         font-weight: bold;

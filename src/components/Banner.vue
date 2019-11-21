@@ -38,9 +38,10 @@
     .banner__btn{
         background: $primary-color;
         color: #fff;
-        padding: 1rem 2.5rem;
+        padding: 1.2rem 2.5rem;
         border-radius: 3px;
-        text-decoration: none
+        text-decoration: none;
+        font-size: 1rem;
     }
     .animate{
         animation-name: animate;
