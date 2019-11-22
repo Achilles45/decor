@@ -42,7 +42,7 @@
                                     <div class="form-group">
                                         <label for="select">Select skills</label>
                                       <select name="select" id="" v-model="select" class="form-control">
-                                          <option value="Hair stylist">Hair stylist</option>
+                                          <option value=""></option>
                                           <option value="Interior decor">Interior decor</option>
                                           <option value="Cook">Cook</option>
                                           <option value="Laundry man">Laundry man</option>
@@ -115,6 +115,7 @@ export default {
                 box-shadow: none;
                 font-size: .9rem;
                 color: #404040;
+                height: 2.8rem;;
             }
             label{
                 font-size: .8rem;
