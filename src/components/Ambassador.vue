@@ -8,7 +8,7 @@
                 <div class="col-md-6 content">
                     <h4>Earn more than you currently do by providing your services to more clients!</h4>
                     <p>We'll help you reach more potntial clients that needs your services faster and cost effective if you become an ambassador.</p>
-                    <router-link to="/" class="ambassador__btn">Register Now &nbsp;&nbsp; <i class="fa fa-angle-right animate"></i></router-link>
+                    <router-link to="/ambassador" class="ambassador__btn">Register Now &nbsp;&nbsp; <i class="fa fa-angle-right animate"></i></router-link>
                 </div>
             </div>
         </div>

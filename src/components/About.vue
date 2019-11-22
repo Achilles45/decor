@@ -4,7 +4,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-8 heading text-center">
                 <hr>
-                <h4>About Us</h4>
+                <h4>Who We Are</h4>
                 <hr>
                 <p>Prime decor is a marketplace aggregator for professional service providers such as cooks, hair stylist, event planners, make-up artist and clients who needs such services within their locality. Professional services providers can now earn more income and clients can find these vetted service providers without breaking the bank easily on one platform.We exist to help provide quality services to our clients. You would want to give us a try today!</p>
             </div>

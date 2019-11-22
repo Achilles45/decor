@@ -3,32 +3,32 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <router-link to="/" class="logo"><img src="../assets/logo.png" alt=""></router-link>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                         <i class="fa fa-bars"></i>
                     </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
                                <router-link to="/" class="nav-link">Home</router-link>
                             </li>
                             <li class="nav-item">
-                                <router-link to="/" class="nav-link">About</router-link>
+                                <router-link to="/about" class="nav-link">About</router-link>
                             </li>
                              <li class="nav-item">
-                                <router-link to="/" class="nav-link">Decor shop</router-link>
+                                <router-link to="/shop" class="nav-link">Decor shop</router-link>
                             </li>
                              <li class="nav-item">
-                                <router-link to="/" class="nav-link">Services</router-link>
+                                <router-link to="/services" class="nav-link">Services</router-link>
                             </li>
                              <li class="nav-item">
-                                <router-link to="/" class="nav-link">Become an ambassador</router-link>
+                                <router-link to="/ambassador" class="nav-link">Become an ambassador</router-link>
                             </li>
-                            <li class="nav-item">
-                                <router-link to="/" class="nav-link">Login</router-link>
-                            </li>
+                            <!-- <li class="nav-item">
+                                <router-link to="/login" class="nav-link">Login</router-link>
+                            </li> -->
                              <li class="nav-item">
-                                <router-link to="/" class="nav-link">Contact</router-link>
+                                <router-link to="/contact" class="nav-link">Contact</router-link>
                             </li>
                             </ul>
                         </div>

@@ -23,7 +23,7 @@
                 </div>
             </div>
             <hr>
-            <small>Terms and Condition apply. &copy;Copyright 2019. All rights reserved.</small>
+            <small>Terms and Condition apply. &copy; Copyright 2019. All rights reserved.</small>
         </div>
     </footer>
 </template>
